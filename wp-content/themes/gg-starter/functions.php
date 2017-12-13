@@ -157,6 +157,7 @@ add_action( 'widgets_init', 'mw_starter_widgets_init' );
  
 function mw_starter_scripts() {
 	/* Enqueue Google Fonts: Source Sans Pro and PT Serif */
+	wp_enqueue_style('https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet');
 	wp_enqueue_style('mwstarter-fonts', 'https://fonts.googleapis.com/css?family=PT+Serif|Source+Sans+Pro:400,400i,700,900" rel="stylesheet');
 	
 	wp_enqueue_style( 'mwstarter-style', get_stylesheet_uri() );
