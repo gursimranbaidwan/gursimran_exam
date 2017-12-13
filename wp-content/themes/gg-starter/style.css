@@ -45,6 +45,9 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
 /*--------------------------------------------------------------
 # Normalize
 --------------------------------------------------------------*/
+
+
+
 html {
 	font-family: sans-serif;
 	-webkit-text-size-adjust: 100%;
@@ -646,6 +649,9 @@ a:hover, a:active {
 	background: #b51c35;
 }
 
+
+
+
 .nav-links {
 	margin: 0 auto;
 	padding: 0 .4em;
@@ -882,7 +888,7 @@ a:hover, a:active {
 	padding: 1em;
 	font-family: "Source Sans Pro", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Arial, sans-serif;
 	color: #fff;
-	background-color: #002254;
+	background-color: #90988b;
 }
 
 @media screen and (min-width: 600px) {
@@ -946,6 +952,7 @@ a:hover, a:active {
 	font-weight: 100;
 }
 
+
 @media screen and (min-width: 900px) {
 	.site-header {
 		display: -webkit-box;
@@ -970,6 +977,7 @@ a:hover, a:active {
 Header Menu
 */
 .main-navigation {
+	
 	display: block;
 	font-family: "Source Sans Pro", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Arial, sans-serif;
 	font-weight: 400;
@@ -995,6 +1003,7 @@ Header Menu
 }
 
 .main-navigation ul ul li {
+	
 	padding-left: 1em;
 }
 
@@ -1021,9 +1030,12 @@ Header Menu
 	width: 100%;
 	padding: .5em 1em .5em 0;
 	text-decoration: none;
-	color: #fff;
+	color: #626c85;
+	
 }
-
+.main-navigation ul :hover{
+background-color: #b25634;
+}
 .main-navigation a:hover,
 .main-navigation a:focus {
 	text-decoration: underline;
