@@ -26,7 +26,6 @@ function mw_starter_customize_register( $wp_customize ) {
 		) );
 	}
 }
-add_action( 'customize_register', 'mw_starter_customize_register' );
 
 /**
  * Render the site title for the selective refresh partial.
